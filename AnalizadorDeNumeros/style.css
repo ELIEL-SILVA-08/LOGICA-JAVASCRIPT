@@ -1,0 +1,33 @@
+body {
+    margin: 20px;
+    height: 5vh;
+    display: grid;
+    place-items: center;
+}
+.container {
+    display: flex;
+    gap: 4px; /* espaço entre eles */
+}
+.janelas {
+    display: flex;
+    gap: 4px;
+
+}
+#janela1 {
+    width: 150px;
+    height: 130px;
+    border: 2px solid black;
+    overflow-y: auto; /* cria scroll automático */
+    padding: 10px;
+    margin-top: 10px;
+    background: #cccccc;
+}
+#janela2 {
+    width: 270px;
+    height: 130px;
+    border: 2px solid black;
+    overflow-y: auto; /* cria scroll automático */
+    padding: 10px;
+    margin-top: 10px;
+    background: #cccccc;
+}
