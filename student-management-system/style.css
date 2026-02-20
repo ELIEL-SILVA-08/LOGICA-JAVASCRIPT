@@ -1,0 +1,47 @@
+input{
+  display: flex;
+    gap: 2px
+}
+.span{
+    margin: 20px;
+    margin-top: 50px;
+}
+.container {
+    display: flex;
+    gap: 4px; /* espaço entre eles */
+}
+.janelas {
+    display: flex;
+    gap: 4px;
+
+}
+#janela1 {
+    width: 280px;
+    height: 130px;
+    border: 2px solid black;
+    overflow-y: auto; /* cria scroll automático */
+    padding: 10px;
+    margin-top: 10px;
+    background: #cccccc;
+}
+#janela2 {
+    width: 350px;
+    height: 130px;
+    border: 2px solid black;
+    overflow-y: auto; /* cria scroll automático */
+    padding: 10px;
+    margin-top: 10px;
+    background: #cccccc;
+}
+.remove{
+    background-color: rgb(217, 2, 2);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.edite{
+    background-color: rgb(4, 173, 35);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
